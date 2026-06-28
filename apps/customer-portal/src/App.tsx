@@ -8,7 +8,7 @@ function App() {
       <Button onClick={() => {alert(formatCurrency(12345))}} />
       <p>Some new feature!</p>
       <p>Again some new fixes</p>
-      <div onClick={() => {}}>something</div>
+      <div>something</div>
     </>
   )
 }
