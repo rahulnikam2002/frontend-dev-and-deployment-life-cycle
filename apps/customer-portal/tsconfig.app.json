@@ -1,0 +1,14 @@
+{
+  "extends": "../../packages/typescript-config/react-app.json",
+  "compilerOptions": {
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+    "allowImportingTsExtensions": true,
+    "erasableSyntaxOnly": true,
+    "noEmit": true
+  },
+  "include": [
+    "src",
+    "tsconfig.test.json",
+    "vite-env.d.ts"
+  ]
+}
